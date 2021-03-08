@@ -1,0 +1,375 @@
+.heading-box h2{ width:100%; color: red; }
+.text-box {
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	right: 15%;
+	color: #fff;
+	text-align: center;
+	transform: translateY(-50%);
+}
+
+.pop svg
+{ font-size: 3rem;
+
+}
+
+.pop {
+  margin-bottom: 130px;
+}
+
+.pop > div {
+  bottom: -105px;
+  background-color: white;
+  margin: -15px;
+}
+.colonneDroite {
+	background-color: #033b4a;
+	z-index: 10;
+	position: relative;
+	right: 50px;
+	top: 50px;
+
+}
+
+.colonneDroite img{
+  border-radius: 50%;
+}
+
+.rating {
+	color: gold;
+}
+
+.card .carousel-item {
+	height: 200px;
+  }
+  .card .carousel-caption {
+	padding: 0;
+	right: 0;
+	left: 0;
+	color: #3d3d3d;
+  }
+  .card .carousel-caption h3 {
+	color: #3d3d3d;
+  }
+  .card .carousel-caption p {
+	line-height: 30px;
+  }
+  .card .carousel-caption .col-sm-3 {
+	display: flex;
+	align-items: center;
+  }
+  .card .carousel-caption .col-sm-9 {
+	text-align: left;
+  }
+  .navi a {
+	  text-decoration:none;
+  }
+  a > .ico {
+	  background-color: grey;
+	  padding: 10px;
+	  
+  }
+  a:hover > .ico {
+	  background-color: #666;
+  }
+
+.carouselHauteur, .carouselHauteur img {
+  height: 900px;
+
+}
+
+.carouselHauteur img {
+  filter: brightness(70%);
+}
+
+.carouselHauteur span {
+	color: #0869DA
+}
+
+.texteCarousel {
+	padding-bottom: 250px;
+}
+
+.partVideo {
+	background-image: url("../images/4k-white-wallpaper-2.jpg");
+	width: auto;
+	height: auto;
+}
+
+.buttonPlay{
+	padding-left: 550px;
+}
+
+.video-play-button {
+    /* position: absolute; */
+    z-index: 10;
+    top: 100%;
+    left: 61%;
+    transform: translateX(-50%) translateY(-50%);
+    box-sizing: content-box;
+    display: block;
+    width: 15px;
+    height: 12px;
+    background: #086AD9;
+    border-radius: 50%;
+    padding: 9px 24px 18px 28px;
+}
+.video-play-button:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 75px;
+    height: 75px;
+    background: #086AD9;
+    border-radius: 50%;
+    animation: pulse-border 1500ms ease-out infinite;
+}
+
+.video-play-button:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 70px;
+    height: 70px;
+    background: #086AD9;
+    border-radius: 50%;
+    transition: all 200ms;
+
+}
+
+.listeTrauma{
+  list-style-type: none;
+}
+
+.fa-arrow-circle-right {
+  color: #0D75E6;
+  margin-right: 30px;
+}
+
+
+.video-play-button span {
+    display: block;
+    position: relative;
+    z-index: 3;
+    width: 0;
+    height: 0;
+    border-left: 18px solid #fff;
+    border-top: 10px solid transparent;
+    border-bottom: 12px solid transparent;
+}
+
+@keyframes pulse-border {
+  0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    opacity: 0;
+  }
+}
+
+.patients {
+  bottom : -16px;
+  right: 15px;
+  width: 80%;
+}
+
+.patients p {
+  background-color: #033B4A;
+  color : white;
+  padding: 20px;
+  font-size: 20px;
+}
+.patients span {
+  color: #0059BE
+}
+
+/* YASSINE */
+/* .yassine h5 {
+  color: grey;
+} */
+
+.yassine p{
+  color: grey;
+  font-size:15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.yassine img{
+    width: 150px !important;
+    height: 250px !important;
+    justify-content: center;
+    margin:auto;
+} 
+
+.car{ 
+    display:flex;
+    justify-content:center;
+    margin: 10px !important;
+    align-items: center !important;
+    padding: 5px;
+    max-height: 350px;
+} 
+
+.nam {
+  display: flex;
+  justify-content:center;
+  text-align: center;
+  color: #053E4F;
+}
+
+.yassine h2 {
+	color: #053E4F;
+	text-align: left;
+	padding-left: 0;
+}
+
+
+.fle1{
+  border: solid 5px grey;
+  padding: 5px;
+}
+
+.metier{
+  text-align: center;
+}
+
+/**********************************************************************************************************************************************************/
+/* syl */
+/*******/
+/**********************************************************************************************************************************************************/
+/* syl */
+/*******/
+.counterZoneParent{
+	position: relative;
+}
+.imageCounter{
+	height: 60vh;
+	overflow: hidden;
+}
+.imageCounter img{
+	position:relative;
+	bottom: 23%;
+}
+.counterZone{
+	width: 65%;
+	position: absolute;
+	top:13%;
+	right: 0;
+}
+.counterZone svg{
+	font-size: 2.5rem;
+}
+.counterText p:first-child{
+	font-size: 2rem;
+	font-weight:700;
+}
+.chimiste{
+	background: center url(../images/chimiste.jpg)
+}
+.chimiste>div{
+	background: #033b4af3;
+}
+.chimiste .btn{
+	border-radius: unset;
+}
+
+.chimiste .card{
+	background: none;
+	border-radius: 0;
+}
+.chimiste .card-body p{
+	font-size: 0.95rem;
+}
+
+.chimiste .card svg{
+	font-size: 3rem;
+}
+
+/*****************************************************footer****************************************************/
+.text-gris {
+	color: #8faec2;
+}
+.contact svg{
+    align-self: center;
+	font-size: 1.5rem;
+	margin: 13px;
+}
+.contact p, .contact a{
+	margin: 0;
+	padding: 0;
+}
+.contact a{
+	color: #fff;
+}
+footer ul{
+	list-style: none;
+	padding: 0;
+}
+footer h3{
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+.quickLink{
+	height: 80%;
+}
+.quickLink span, .services span{
+	position: relative;
+	bottom: 0.45rem;
+	left: -0.3rem;
+	font-size: 1.5rem;
+	font-weight: lighter;
+}
+.footerMainParent{
+ 	background: #033b4af3;
+}
+.footerMain{
+	background: center/contain url(../images/mapMonde.jpg)
+}
+.footerMain>div{
+ 	background: #033b4af3;
+}
+
+.social a{
+	display: block;
+	border-radius: 50px;
+	width: 2rem;
+	height: 2rem;
+}
+.social svg{
+	align-self: center;
+}
+
+.footerMain .card{
+	background: none;
+	border: none;
+}
+
+.Newsletter input{
+	border: none;
+	border-radius: 0;
+	background: #ffffff1b;
+}
+.Newsletter input::placeholder{
+	color: #ffffff90;
+	font-size: 0.9rem;
+	letter-spacing: 0.05rem;
+}
+.copyright{
+	background: #023341;
+	font-size: 0.9rem;
+	font-weight: 600;
+}
+/**********************************************************************************************************************************************************/
+/* FIN de sylvain */
+/*******/
